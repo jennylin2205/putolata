@@ -8,6 +8,10 @@ import Login from './pages/Login.jsx';
 import Home from './pages/Home.jsx';
 import HeaderNormal from '../src/components/HeaderNormal.jsx';
 import Register from '../src/pages/Register.jsx';
+import Account from '../src/pages/Account.jsx';
+import EditAccount from '../src/pages/EditAccount.jsx';
+import ForgetPassword from '../src/pages/ForgetPassword.jsx';
+import ResetPassword from '../src/pages/ResetPassword.jsx';
 function App() {
   return (
     <Router>
@@ -19,10 +23,45 @@ function App() {
             <Footer/>
           </Route>
 
+          <Route path="/forgetpassword">
+            <HeaderNormal/>
+            <Slider/>
+            <ForgetPassword/>
+            <Footer/>
+          </Route>
+
+          <Route path="/resetpassword">
+            <HeaderNormal/>
+            <Slider/>
+            <ResetPassword/>
+            <Footer/>
+          </Route>
+
           <Route path="/register">
             <HeaderNormal/>
             <Slider/>
             <Register/>
+            <Footer/>
+          </Route>
+
+          <Route path="/cart">
+            <HeaderNormal/>
+            <Slider/>
+            <Register/>
+            <Footer/>
+          </Route>
+
+          <Route path="/account">
+            <HeaderNormal/>
+            <Slider/>
+            <Account/>
+            <Footer/>
+          </Route>
+
+          <Route path="/editaccountinfo">
+            <HeaderNormal/>
+            <Slider/>
+            <EditAccount/>
             <Footer/>
           </Route>
 

@@ -16,6 +16,7 @@ import bling from '../assets/img/Image -1.png';
 import bling2 from '../assets/img/Image 17.png';
 
 import Product from '../components/Product.jsx';
+import SpecialProduct from '../components/SpecialProduct.jsx';
 import superstar from '../assets/img/superstar.png';
 import Carousel from 'react-bootstrap/Carousel';
 function Home() {
@@ -162,7 +163,7 @@ function Home() {
                 <div className="home__starcontent">
                     <Container>
                         <Row>
-                        <Col lg={3} md={4}>
+                            <Col lg={3} md={4}>
                                 <Product
                                     title="Misha Collins Famous Coloring" 
                                     price={999.99} 
@@ -171,7 +172,7 @@ function Home() {
                                 />
                             </Col>
                             <Col lg={6} md={4}>
-                                <Product
+                                <SpecialProduct
                                     title="Misha Collins Famous Coloring" 
                                     price={999.99} 
                                     image={'https://cdn.concung.com/2019/06/39316-50253/thach-orihiro-vi-nho-120g.jpg'}

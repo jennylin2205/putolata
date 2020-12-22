@@ -1,23 +1,23 @@
-* {
+.headerNormal {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto';
 }
 
-nav {
+.headerNormal__nav {
     background-color: #FFF6F6;
 }
 
-ul.header__left, ul.header__right {
+ul.headerNormal__left, ul.headerNormal__right {
     margin: 0px;
 }
 
-ul.header__left {
+ul.headerNormal__left {
     padding-left: 1%;
 }
 
-ul.header__right {
+ul.headerNormal__right {
     padding-right: 1%;
 }
 
@@ -31,40 +31,40 @@ ul > li {
     color: #FFAFAF;
 }
 
-.link:hover, .header__subtitle:hover {
+.link:hover, .headerNormal__subtitle:hover {
     text-decoration: none;
     color: #FFAFAF;
 }
 
-.header__nav {
+.headerNormal__nav {
     display: flex;
     justify-content: space-between;
 }
 
-.header__left, .header__right {
+.headerNormal__left, .headerNormal__right {
     display: flex;
     align-items: center;
 }
 
-.header__left > li {
+.headerNormal__left > li {
     margin-right: 3vw;
     transition: 0.1s ease-in-out;
 }
 
-.header__left > li:hover {
+.headerNormal__left > li:hover {
     padding-bottom: 5px;
     border-bottom: 2px solid #FFAFAF;
 }
 
-.header__right {
+.headerNormal__right {
     margin-right: 2%;
 }
 
-.header__left {
+.headerNormal__left {
     margin-left: 2%;
 }
 
-.header__logo {
+.headerNormal__logo {
     padding-right: 10px;
     margin-right: 10px;
     margin-top: 5px;
@@ -73,19 +73,19 @@ ul > li {
     object-fit: contain;
 }
 
-.header__icon {
+.headerNormal__icon {
     height: 25px;
     width: 25px;
     object-fit: contain;
 }
 
-.search {
+.searchNormal {
     background-color: #FFF6F6;
     height: 25px;
     width: 25px;
 }
 
-.header__search {
+.headerNormal__search {
     display: flex;
     margin-right: 10px;
     padding: 5px;
@@ -94,23 +94,23 @@ ul > li {
     transition: all ease-in-out 0.3s;
 }
 
-.header__search:hover {
+.headerNormal__search:hover {
     border: 1px #FFAFAF dashed;
     padding: 10px;
 }
 
-input {
+.inputNormal {
     outline: none;
     border: none;
     background-color: #FFF6F6;
     margin-left: 5px;
 }
 
-.header__account {
+.headerNormal__account {
     margin-left: 15px;
 }
 
-.header__submenu {
+.headerNormal__submenu {
     z-index: 1000;
     position: absolute;
     display: flex;
@@ -120,19 +120,19 @@ input {
     transition: all 0.2s ease-in-out;
 }
 
-.dropdowncontent {
+.dropdowncontentNormal {
     display:none;
 }
 
-.header__dropdown:hover > .dropdowncontent {
+.headerNormal__dropdown:hover > .dropdowncontentNormal {
     display: block;
 }
 
-/* .header__dropdown:hover > .header__submenu {
+/* .headerNormal__dropdown:hover > .headerNormal__submenu {
     display: block;
     z-index: 10;
 } */
-.header__column {
+.headerNormal__column {
     background-color: white;
     display: flex;
     width: 25%;
@@ -144,13 +144,13 @@ input {
     border-bottom: 3px  #ff8888 solid;
 }
 
-.header__columnImage {
+.headerNormal__columnImage {
     width: 100%;
     object-fit: contain;
     padding: 10px 20px;
 }
 
-.header__subtitle {
+.headerNormal__subtitle {
     text-decoration: none;
     color: #ff8888;
     text-align: center;
@@ -158,7 +158,7 @@ input {
     font-size: 20px;
 }
 
-.header__subcolumn {
+.headerNormal__subcolumn {
     margin-top: 30px;
     display: flex;
     line-height: 25px;
@@ -166,16 +166,16 @@ input {
 }
 
 
-.header__subcolumn .link:hover {
+.headerNormal__subcolumn .link:hover {
     background-color: #ff8888;
     color: white;
 }
 
-.header__subcolumn .link {
+.headerNormal__subcolumn .link {
     padding-left: 20px;
 }
 
-.header__log {
+.headerNormal__log {
     /* background-color: #FFF6F6; */
     padding-top: 10px;
     display: flex;
@@ -188,14 +188,14 @@ input {
     padding-bottom: 10px;
 }
 
-.header__log .link button {
+.headerNormal__log .link button {
     margin: 10px 10px 0px 10px;
     padding: 5px 40px;
     border-radius: 20px;
     background-color: #ffbda5;
 }
 
-.header__log button > .link {
+.headerNormal__log button > .link {
     color: white;
     font-weight: 700;
 }
@@ -235,10 +235,10 @@ button {
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
 }
 
-.header__signpane {
+.headerNormal__signpane {
     display: none;
 }
 
-.header__account:hover .header__signpane {
+.headerNormal__account:hover .headerNormal__signpane {
     display: block;
 }
