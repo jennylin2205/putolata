@@ -12,6 +12,8 @@ import Account from '../src/pages/Account.jsx';
 import EditAccount from '../src/pages/EditAccount.jsx';
 import ForgetPassword from '../src/pages/ForgetPassword.jsx';
 import ResetPassword from '../src/pages/ResetPassword.jsx';
+import Cart from '../src/pages/Cart.jsx';
+import Error from '../src/pages/Error.jsx';
 function App() {
   return (
     <Router>
@@ -47,7 +49,14 @@ function App() {
           <Route path="/cart">
             <HeaderNormal/>
             <Slider/>
-            <Register/>
+            <Cart/>
+            <Footer/>
+          </Route>
+
+          <Route path="/error">
+            <HeaderNormal/>
+            <Slider/>
+            <Error/>
             <Footer/>
           </Route>
 

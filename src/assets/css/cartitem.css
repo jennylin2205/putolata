@@ -1,0 +1,95 @@
+
+.cartitem__topper {
+    text-align: center;
+}
+
+.cart__icon {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.cartitem__title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #F69996;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0px;
+}
+
+.cartitem__img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.cartitem__thread {
+    text-align: center;
+    background-color: #FFD6D6;
+    color: white;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: transparent;
+    border-spacing: 0px;
+}
+
+td {
+    color: #F69996;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.minus, .plus {
+    width: 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #F69996;
+}
+
+.removebutton {
+    width: 20px;
+    color: #F69996;
+    font-weight: bold;
+}
+
+.itemscontainer {
+    box-shadow: 1px 1px 10px 2px rgb(247, 247, 247);
+}
+
+.cartitem__total {
+    text-align: end;
+}
+
+.cartitem__totalprice {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #F68C8C;
+    font-weight: bold;
+}
+.pay, .continue, .delete {
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px 1px rgb(225, 225, 225);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.pay {
+    background-color: #FFB9B9;
+    color: white;
+}
+
+.continue {
+    background-color: #FFECEC;
+    color: salmon;
+}
+
+.delete {
+    background-color: white;
+    border: 2px solid #FB9696;
+    color: #FFAFAF;
+}
