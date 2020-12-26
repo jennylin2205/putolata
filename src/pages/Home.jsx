@@ -18,7 +18,17 @@ import bling2 from '../assets/img/Image 17.png';
 import Product from '../components/Product.jsx';
 import SpecialProduct from '../components/SpecialProduct.jsx';
 import superstar from '../assets/img/superstar.png';
-import Carousel from 'react-bootstrap/Carousel';
+import have from '../assets/img/have.png';
+
+import RuleItem from '../components/RuleItem.jsx';
+
+import hinh1 from '../assets/img/NoPath.png';
+import deli from '../assets/img/deli.png';
+import cusser from '../assets/img/cusser.png';
+import product from '../assets/img/product.png';
+import payment from '../assets/img/payment.png';
+
+import why from '../assets/img/why.png';
 function Home() {
     return(
         <div className="content">
@@ -45,7 +55,7 @@ function Home() {
                 <p className="home__descript">Để chúng mình tự giới thiệu sơ nhé!</p>
                 <Container>
                     <Row>
-                        <Col className='h-100'>
+                        <Col className='h-100' md={4}>
                             <div className="home__intentcontain">
                                 <img src={topper} className='home__topperImg' alt=""/>
                                 <div className="home__intentcontent">
@@ -55,7 +65,7 @@ function Home() {
                             </div>
                         </Col>
 
-                        <Col className='h-100'>
+                        <Col className='h-100' md={4}>
                             <div className="home__intentcontain">
                                 <img src={topper} className='home__topperImg' alt=""/>
                                 <div className="home__intentcontent">
@@ -65,7 +75,7 @@ function Home() {
                             </div>
                         </Col>
 
-                        <Col className='h-100'>
+                        <Col className='h-100' md={4}>
                             <div className="home__intentcontain">
                                 <img src={topper} className='home__topperImg' alt=""/> 
                                 <div className="home__intentcontent">
@@ -190,6 +200,63 @@ function Home() {
                         </Row>
                     </Container>
                     <button className="home__type2">XEM THÊM</button>
+                </div>
+            </div>
+
+            <div className="home__category">
+                <img src={why} className='intent' alt=""/>
+                <p className="home__descript">Tại vì chúng mình là đỉnh nhấttttttt!</p>
+                <button className="home__type1">XEM SẢN PHẨM</button>
+                <div className="home__catecontainer">
+                    <Container>
+                        <Row>
+                            <Col md={6}>
+                                <div className="home__rulecontainer">
+                                    <RuleItem
+                                        name="Giao hàng miễn phí"
+                                        img={deli}
+                                        des="Cho đơn hàng trên 1.000.000 VNĐ"
+                                    />
+                                </div>
+                            </Col>
+
+                            <Col md={6}>
+                                <div className="home__rulecontainer">
+                                    <RuleItem
+                                        name="Thanh toán"
+                                        img={payment}
+                                        des="Nhiều hình thức thanh toán tùy thuộc vào lựa chọn của bạn"
+                                    />
+                                </div>
+                            </Col>
+                        </Row>
+
+                        <Row className="justify-content-md-center">
+                            <img src={hinh1} alt="" className="home__ruleimg"/>
+                        </Row>
+
+                        <Row>
+                            <Col md={6}>
+                                <div className="home__rulecontainer">
+                                    <RuleItem
+                                        name="Chăm sóc khách hàng"
+                                        img={cusser}
+                                        des="Liên hệ và chúng tôi sẽ giải đáp cho bạn trong vòng 24 giờ làm việc."
+                                    />
+                                </div>
+                            </Col>
+
+                            <Col md={6}>
+                                <div className="home__rulecontainer">
+                                    <RuleItem
+                                        name="Chất lượng"
+                                        img={product}
+                                        des="Chúng tôi tự tin bảo đảm chất lượng hàng hóa của mình."
+                                    />
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             </div>
         </div>

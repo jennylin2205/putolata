@@ -200,7 +200,7 @@ ul > li {
     font-weight: 700;
 }
 
-button {
+.buttonstyle {
     background-color: white;
     border: none;
     outline: none;
@@ -212,6 +212,8 @@ button {
     font-size: 16px;
     font-weight: 600;
     color: #fff;
+    outline: none;
+    border: none;
     cursor: pointer;
     margin: 10px;
     background-size: 300% 100%;

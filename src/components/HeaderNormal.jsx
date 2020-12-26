@@ -76,7 +76,7 @@ function HeaderNormal() {
                 <ul className="headerNormal__right">
                     <li className="headerNormal__search">
                         <input className="inputNormal" type="text"/>
-                        <button><img src={search} className='searchNormal' alt=""/></button>
+                        <button className="buttonstyle"><img src={search} className='searchNormal' alt=""/></button>
                     </li>
 
                     <li>

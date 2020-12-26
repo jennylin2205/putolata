@@ -93,3 +93,8 @@ i {
 .home__starcontent {
     margin: 20px 0px;
 }
+
+.specialproduct__add {
+    border: none;
+    outline: none;
+}

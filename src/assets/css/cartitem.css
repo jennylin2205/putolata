@@ -34,7 +34,7 @@
     border-spacing: 0px;
 }
 
-td {
+.cartitem__thread > td {
     color: #F69996;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -46,11 +46,16 @@ td {
     border: none;
     outline: none;
     font-weight: bold;
+    margin: 0px 5px;
+    background-color: #fff3f3;
     color: #F69996;
 }
 
 .removebutton {
+    border: none;
+    outline: none;
     width: 20px;
+    background-color: transparent;
     color: #F69996;
     font-weight: bold;
 }
@@ -70,6 +75,8 @@ td {
     font-weight: bold;
 }
 .pay, .continue, .delete {
+    outline: none;
+    border: none;
     width: 150px;
     padding: 5px;
     font-weight: bold;
@@ -92,4 +99,8 @@ td {
     background-color: white;
     border: 2px solid #FB9696;
     color: #FFAFAF;
+}
+
+.pay:hover, .continue:hover, .delete:hover {
+    background-color: rgb(255, 212, 212);
 }

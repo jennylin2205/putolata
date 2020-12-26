@@ -22,7 +22,7 @@ function Header() {
                     </li>
 
                     <li className="header__dropdown">
-                        <Link to="/" className='link' >Sản phẩm</Link>
+                        <Link to="/products" className='link' >Sản phẩm</Link>
                         <div className="dropdowncontent">
                             <div className="header__submenu">
                                 <div className="header__column">
@@ -76,7 +76,7 @@ function Header() {
                 <ul className="header__right">
                     <li className="header__search">
                         <input type="text"/>
-                        <button><img src={search} className='search' alt=""/></button>
+                        <button className="buttonstyle"><img src={search} className='search' alt=""/></button>
                     </li>
 
                     <li>
