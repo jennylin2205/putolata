@@ -17,6 +17,7 @@ import Error from '../src/pages/Error.jsx';
 import Checkout from '../src/pages/Checkout.jsx';
 import Sales from '../src/pages/Sales.jsx';
 import ProductDetails from '../src/pages/ProductDetails.jsx';
+import ProductAll from '../src/pages/ProductAll.jsx';
 function App() {
   return (
     <Router>
@@ -81,6 +82,13 @@ function App() {
             <HeaderNormal/>
             <Slider/>
             <Sales/>
+            <Footer/>
+          </Route>
+
+          <Route path="/product">
+            <HeaderNormal/>
+            <Slider/>
+            <ProductAll/>
             <Footer/>
           </Route>
 
