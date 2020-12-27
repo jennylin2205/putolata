@@ -23,8 +23,10 @@ function Sales() {
                     </Col>
                 </Row>
 
-                <Row className="justify-content-md-center">
-                    <img src={banner} alt="" className="sales__banner"/>
+                <Row>
+                    <div className="bannercontainer">
+                        <img src={banner} alt="" className="sales__banner"/>
+                    </div>
                 </Row>
 
                 <Row>

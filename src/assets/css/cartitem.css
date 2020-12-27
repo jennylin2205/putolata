@@ -41,6 +41,10 @@
     font-weight: bold;
 }
 
+td {
+    text-align: center;
+}
+
 .minus, .plus {
     width: 20px;
     border: none;

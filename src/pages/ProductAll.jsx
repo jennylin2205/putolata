@@ -24,8 +24,10 @@ function ProductAll() {
                     </Col>
                 </Row>
 
-                <Row className="justify-content-md-center">
-                    <img src={newbanner} alt="" className="sales__banner"/>
+                <Row>
+                    <div className="bannercontainer">
+                        <img src={newbanner} alt="" className="sales__banner"/>
+                    </div>
                 </Row>
                 <Row>
                         <Col lg={3} md={6}>
@@ -97,9 +99,11 @@ function ProductAll() {
                         </Col>
                     </Row>
 
-                    <Row className="justify-content-md-center">
-                    <img src={bestsellerbanner} alt="" className="sales__banner"/>
-                </Row>
+                    <Row>
+                        <div className="bannercontainer">
+                            <img src={bestsellerbanner} alt="" className="sales__banner"/>
+                        </div>
+                    </Row>
                 <Row>
                         <Col lg={3} md={6}>
                             <Product

@@ -24,83 +24,83 @@ function App() {
       <div className="app">
         <Switch>
           <Route path="/login">
-            <HeaderNormal/>
+            <Header/>
             <Login/>
             <Footer/>
           </Route>
 
           <Route path="/forgetpassword">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <ForgetPassword/>
             <Footer/>
           </Route>
 
           <Route path="/resetpassword">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <ResetPassword/>
             <Footer/>
           </Route>
 
           <Route path="/register">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <Register/>
             <Footer/>
           </Route>
 
           <Route path="/cart">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <Cart/>
             <Footer/>
           </Route>
 
           <Route path="/error">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <Error/>
             <Footer/>
           </Route>
 
           <Route path="/productdetails">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <ProductDetails/>
             <Footer/>
           </Route>
 
           <Route path="/checkout">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <Checkout/>
             <Footer/>
           </Route>
 
           <Route path="/sales">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <Sales/>
             <Footer/>
           </Route>
 
           <Route path="/product">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <ProductAll/>
             <Footer/>
           </Route>
 
           <Route path="/account">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <Account/>
             <Footer/>
           </Route>
 
           <Route path="/editaccountinfo">
-            <HeaderNormal/>
+            <Header/>
             <Slider/>
             <EditAccount/>
             <Footer/>

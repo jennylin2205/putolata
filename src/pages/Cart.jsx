@@ -51,7 +51,7 @@ function Cart() {
                         <p className="cartitem__title">Giỏ hàng của bạn</p>
                     </div>
                     <div className="itemscontainer">
-                        <Table responsive hover>
+                        <Table responsive hover align="center">
                             <thead className="cartitem__thread">
                                 <tr>
                                 <th>STT</th>
