@@ -31,18 +31,15 @@ function Footer() {
                         <Col md={2}>
                             <div className="footer__adveninfo">
                                 <p className="footer__title">Hỗ trợ</p>
-                                <a href="" className="footer__infoadven">FAQ</a>
-                                <a href="" className="footer__infoadven">Liên hệ</a>
-                                <a href="" className="footer__infoadven">Chính sách</a>
+                                <a href="https://www.facebook.com/Putolata-103170758381803" className="footer__infoadven">Liên hệ</a>
                             </div>
                         </Col>
 
                         <Col md={2}>
                             <div className="footer__adveninfo">
                                 <p className="footer__title">Mạng xã hội</p>
-                                <a href="" className="footer__infoadven">Twitter</a>
-                                <a href="" className="footer__infoadven">Facebook</a>
-                                <a href=""  className="footer__infoadven">Instagram</a>
+                                <a href="https://twitter.com/" className="footer__infoadven">Twitter</a>
+                                <a href="https://www.facebook.com/Putolata-103170758381803" className="footer__infoadven">Facebook</a>
                             </div>
                         </Col>
 

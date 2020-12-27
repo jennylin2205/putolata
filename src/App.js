@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from '../src/components/Header.jsx';
@@ -6,7 +6,8 @@ import Footer from '../src/components/Footer.jsx';
 import Slider from '../src/components/Slider.jsx';
 import Login from './pages/Login.jsx';
 import Home from './pages/Home.jsx';
-import HeaderNormal from '../src/components/HeaderNormal.jsx';
+// import HeaderNormal from '../src/components/SideShare.jsx';
+import SideShare from '../src/components/SideShare.jsx';
 import Register from '../src/pages/Register.jsx';
 import Account from '../src/pages/Account.jsx';
 import EditAccount from '../src/pages/EditAccount.jsx';
@@ -18,10 +19,24 @@ import Checkout from '../src/pages/Checkout.jsx';
 import Sales from '../src/pages/Sales.jsx';
 import ProductDetails from '../src/pages/ProductDetails.jsx';
 import ProductAll from '../src/pages/ProductAll.jsx';
+import AboutUs from '../src/pages/AboutUs.jsx';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
   return (
     <Router>
       <div className="app">
+      <MessengerCustomerChat
+        pageId="103170758381803"
+        appId="223938699335936"
+      />
+      <SideShare/>
         <Switch>
           <Route path="/login">
             <Header/>
@@ -96,6 +111,13 @@ function App() {
             <Header/>
             <Slider/>
             <Account/>
+            <Footer/>
+          </Route>
+
+          <Route path="/aboutus">
+            <Header/>
+            <Slider/>
+            <AboutUs/>
             <Footer/>
           </Route>
 
